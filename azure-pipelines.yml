@@ -16,7 +16,6 @@ steps:
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
-    
 
 - task: NuGetToolInstaller@0
   inputs:
